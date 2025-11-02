@@ -27,7 +27,7 @@ jobs:
       - name: Build
         run: ./scripts/build-web-package.sh
       - name: Upload artifact
-        uses: actions/upload-artifact@master
+        uses: actions/upload-artifact@v4
         with:
           name: whynotlang-website-artifact
           path: ./out
@@ -43,7 +43,7 @@ jobs:
         with:
           name: whynotlang-website-artifact
           path: out
-      - uses: geekyeggo/delete-artifact@v2
+      - uses: geekyeggo/delete-artifact@v5
         with:
           name: whynotlang-website-artifact
       - uses: jakejarvis/s3-sync-action@master
