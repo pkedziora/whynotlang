@@ -12,12 +12,12 @@ Parameters:
   BucketName:
     Type: String
     Description: The bucket name.
-    Default: whynotlang-website
+    Default: whynotlang-website-v4
 
   MainHostedZoneId:
     Type: String
     Description: Id of the hosted zone for the site.
-    Default: Z04590043D57P73P3B66W
+    Default: Z1021139N3P8XOZSX0RG
 
   PriceClass:
     Type: String
